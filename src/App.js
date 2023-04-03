@@ -8,11 +8,11 @@ import Footer from "./components/Footer/Footer";
 import { BrowserRouter } from "react-router-dom";
 const App = () => {
   return (
-    <BrowserRouter basename="/axdevstore">
+    <BrowserRouter basename="axdevstore">
       <>
         <Header />
         <Routes>
-          <Route index path="/axdevstore" element={<Home />} />
+          <Route index path="/" element={<Home />} />
           <Route path="/axdevstore/product/:id" element={<Product />} />
         </Routes>
         <Footer />
