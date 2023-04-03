@@ -28,10 +28,10 @@ const Header = () => {
         <div>
           <ul className={`nav__menu  ${isOpen ? "nav__menu open" : ""}`}>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/axdevstore">Home</Link>
             </li>
             <li>
-              <Link to="/product/1">Categories</Link>
+              <Link to="/axdevstore/product/1">Categories</Link>
             </li>
           </ul>
         </div>
