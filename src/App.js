@@ -13,7 +13,7 @@ const App = () => {
         <Header />
         <Routes>
           <Route index path="/" element={<Home />} />
-          <Route path="/axdevstore/product/:id" element={<Product />} />
+          <Route path="/product/:id" element={<Product />} />
         </Routes>
         <Footer />
       </>
