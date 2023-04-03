@@ -5,17 +5,19 @@ import "./App.css";
 import Home from "./pages/Home/Home";
 import Product from "./pages/Product/Product";
 import Footer from "./components/Footer/Footer";
-
+import { BrowserRouter } from "react-router-dom";
 const App = () => {
   return (
-    <>
-      <Header />
-      <Routes>
-        <Route index path="/" element={<Home />} />
-        <Route path="/product/:id" element={<Product />} />
-      </Routes>
-      <Footer />
-    </>
+    <BrowserRouter basename="/axdevstore">
+      <>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/product/:id" element={<Product />} />
+        </Routes>
+        <Footer />
+      </>
+    </BrowserRouter>
   );
 };
 
