@@ -1,0 +1,60 @@
+.contact{
+background: url('../../assets/newsletter-bg.jpeg') no-repeat;
+height: 400px;
+background-size: cover;
+}
+
+
+.contact__card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 4rem;
+}
+
+
+.contact__card .contact__card__text{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+.contact__card .contact__card__text span{
+    color: #979696;
+}
+
+input{
+    padding: 0.2rem; 
+    margin-right: 0.1rem;
+}
+.contact__btn{
+    padding: 0.3rem;
+    background-color: #8e2de2;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact__icons{
+    text-align: center;
+}
+
+.contact__icons p {
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+    color: #979696;
+}
+.contact__icons span{
+    font-size: 1.3rem;
+  
+}
+
+
+
+@media screen and(max-width:750px) {
+    
+}
