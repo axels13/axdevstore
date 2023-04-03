@@ -9,7 +9,7 @@ import { Provider } from "react-redux";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider store={store}>
-    <BrowserRouter basename="/axels13">
+    <BrowserRouter basename="/axdevstore">
       <App />
     </BrowserRouter>{" "}
   </Provider>
